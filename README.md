@@ -1,5 +1,6 @@
 # SOC-Scripts
-Scripts used to parse syslog from different FW Vendors
+Scripts used to parse syslog from different FW Vendors.
+Capabilties to background check IP addresses too
 
 ## parser.py 
 This takes the syslog from either a Windows DC (evt2sylog), Palo Alto Firewall or FortiGate Firewall and parses it into quick and easy to read text.
