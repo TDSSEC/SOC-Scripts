@@ -11,9 +11,12 @@ Arguments:
 '-l', '--log' + syslog to parse
 '-pa', '--palo' = set it to use palo alto parsing
 '-for', '--fortigate' = set it to use fortigate parsing
-'-i', '--ip' + <IP Address> = background check IP. This scans through blacklist checkers, passive total, virus total etc. Requires API keys!```
+'-i', '--ip' + <IP Address> = background check IP. This scans through blacklist checkers, passive total, virus total etc. Requires API keys!
+```
   
 ## threat.db
 This is the Database that stores useful information about IP addresses.
+
 It also has tables to store Palo Alto threat IDs and there descriptions. 
+
 Currently working on FortiGate ones.
