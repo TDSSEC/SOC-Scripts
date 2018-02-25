@@ -1,6 +1,6 @@
 # SOC-Scripts
 This is a python script I have written to perform 2 functions:  
-** 1) IP Address Analysis:**  
+**1) IP Address Analysis:**  
 ```
 Black List Checker - Returns true or false
 VirusTotal Check - Is the IP or site known to be running anything malicious?
@@ -10,7 +10,7 @@ WHOIS data - WHOIS data...
 Geo-IP data - Geo-locational data
 Private DB - Has this IP been seen before by yourself? If so, displays how many times!
 ```
-** 2) Syslog parsing to clearly understand what the syslog message is saying:  
+**2) Syslog parsing to clearly understand what the syslog message is saying:**  
 ```
 Palo Alto Firewall Syslog - Versions 7+
 FortiGate Firewall Syslog
@@ -19,6 +19,9 @@ FortiGate Firewall Syslog
 ## parser.py 
 This takes the syslog from either a Palo Alto Firewall or FortiGate Firewall and parses it into quick and easy to read text.
 There is an option to write the output into a SQLite DB in order to instantly pull information for specific threats and to see if you have spotted the same IP address before.
+
+**Usage:**
+`python ./parser.py -pa -i <IP>`
 
 Arguments:
 ```
